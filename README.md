@@ -1,6 +1,9 @@
 # frontendmentor-notifications-page
 ## 알림 페이지
 
+기간 : 3월 20일까지 !!!
+매일 조금씩 pr 올리기 (가능하면!)
+
 https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC
 
 이번 챌린지에서는 알림 페이지를 구축하고 디자인에 가능한 한 가깝게 보이도록 만드는 것입니다.
