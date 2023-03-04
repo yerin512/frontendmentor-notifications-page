@@ -1,11 +1,8 @@
-import Header from 'componentes/Header';
-import Notifications from 'componentes/Notifications';
-import React from 'react';
+import Notifications from 'pages/Notifications';
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <Notifications />
     </div>
   );
