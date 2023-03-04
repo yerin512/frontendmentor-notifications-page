@@ -1,12 +1,15 @@
+import { useAtomValue } from 'jotai'
+import { notificationsAtom } from 'atoms/notifications';
+
 import Card from 'componentes/Card';
 import Header from 'componentes/Header';
 
-import { notifications } from '../dummy';
-
 export default function Notifications() {
+  const notifications = useAtomValue(notificationsAtom);
+
   return (
     <div className='notifications-page'>
-      <Header notificationNumber={notifications.length} />
+      <Header />
       {notifications.map((notification, index) =>
         <Card
           key={index}
