@@ -1,5 +1,5 @@
 
-export const notifications = [
+export const notificationsData = [
   {
     "profile": '/images/avatar-mark-webber.webp',
     "name": "Mark Webber",
@@ -8,7 +8,7 @@ export const notifications = [
     "group": null,
     "message": null,
     "timestamp": "1m ago",
-    "isRead": false
+    "newNotification": true
   },
   {
     "profile": '/images/avatar-mark-webber.webp',
@@ -18,7 +18,7 @@ export const notifications = [
     "group": null,
     "message": null,
     "timestamp": "5m ago",
-    "isRead": false
+    "newNotification": true
   },
   {
     "profile": '/images/avatar-mark-webber.webp',
@@ -28,7 +28,7 @@ export const notifications = [
     "group": "Chess Club",
     "message": null,
     "timestamp": "1m ago",
-    "isRead": false
+    "newNotification": true
   },
   {
     "profile": '/images/avatar-mark-webber.webp',
@@ -38,7 +38,7 @@ export const notifications = [
     "group": "Chess Club",
     "message": null,
     "timestamp": "1 day ago",
-    "isRead": false
+    "newNotification": false
   },
   {
     "profile": '/images/avatar-mark-webber.webp',
@@ -48,6 +48,6 @@ export const notifications = [
     "group": null,
     "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
     "timestamp": "1 day ago",
-    "isRead": false
+    "newNotification": false
   },
 ]
